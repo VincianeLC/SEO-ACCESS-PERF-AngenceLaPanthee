@@ -2085,7 +2085,10 @@ pre code {
 }
 
 .col-xs-12 {
-    width: 100%
+    width: 100%;
+    justify-content: center;
+  padding:50px;
+
 }
 
 .col-xs-11 {

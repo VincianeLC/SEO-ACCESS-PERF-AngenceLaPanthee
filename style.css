@@ -530,6 +530,12 @@ button {
     opacity: 1;
 }
 
+q {
+    font-size:x-large;
+    padding: 20px;
+    color: #000000;
+    font-family:serif;
+}
 a[data-lightbox] {
     position: relative;
     display: block;
@@ -645,7 +651,7 @@ h3,
 h4,
 h5,
 h6,
-p,
+p
 label,
 .btn,
 a {
@@ -677,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
