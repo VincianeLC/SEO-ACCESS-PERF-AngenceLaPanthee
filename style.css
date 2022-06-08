@@ -702,8 +702,11 @@ p {
 }
 
 .social {
+    display: flex;
+    flex-direction: row;
     max-width: 400px;
     margin: auto auto auto auto;
+    padding: 15px;
 }
 
 h2 {
@@ -735,7 +738,7 @@ h4 {
 .icon {
     margin-bottom: 14px;
     margin-top: 24px;
-    font-size: 30px;
+
 }
 
 .white {
@@ -826,6 +829,12 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+}
+
+.fa{
+    
+    padding: 15px!important;
+    font-size: 30px!important;
 }
 
 @media (max-width: 1024px) {
