@@ -1,2 +1,4 @@
 User-agent: SiteCheckerBotCrawler
 Allow: /
+
+Sitemap: https://vincianelc.github.io/SEO-ACCESS-PERF-AngenceLaPanthere/sitemap.xml
