@@ -27,6 +27,10 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+q{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -40,8 +44,7 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 5%;
 }
 
 .bloc-lg {
@@ -196,6 +199,7 @@ a:hover {
 .d-bloc .panel,
 .l-bloc {
     color: rgba(0, 0, 0, .5);
+    padding: 30px;
 }
 
 .d-bloc .panel button:hover,
@@ -533,7 +537,8 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -725,6 +730,7 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
+    margin-top: 30px;
 }
 
 h1 {
@@ -830,13 +836,10 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
-
-.fa{
-    
-    padding: 15px!important;
+.fa-instagram,.fa-dribbble, .fa-facebook, .fa-twitter {
+    padding: 5px!important;
     font-size: 30px!important;
-}
-
+} 
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -986,8 +989,7 @@ h4 {
         margin-left: 10px;
     }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 5%;
     }
     .bloc-xxl,
     .bloc-xl,
@@ -1042,8 +1044,7 @@ h4 {
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 5%;
     }
 }
 

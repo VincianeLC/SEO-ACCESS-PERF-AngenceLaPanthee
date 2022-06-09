@@ -1435,7 +1435,7 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-
+    display: block;
     max-width: 100%;
     height: auto
 }
@@ -2086,8 +2086,7 @@ pre code {
 
 .col-xs-12 {
     width: 100%;
-    justify-content: center;
-  padding:50px;
+   
 
 }
 
