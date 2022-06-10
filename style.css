@@ -894,11 +894,7 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
-    .bloc-group,
-    .bloc-group .bloc {
-        display: block;
-        width: 100%;
-    }
+  
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
@@ -911,6 +907,9 @@ h4 {
     .page-container {
         overflow-x: hidden;
         position: relative;
+    }
+    .bloc-mob-center-text {
+        text-align: center;
     }
     h1,
     h2,
@@ -1048,22 +1047,5 @@ h4 {
 @media (max-width: 400px) {
     .bloc {
         padding: 5%;
-    }
-    
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-}
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }
