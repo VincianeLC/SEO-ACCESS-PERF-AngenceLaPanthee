@@ -1045,7 +1045,7 @@ h4 {
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 360px) {
     .bloc {
         padding: 5%;
     }
