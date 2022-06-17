@@ -796,7 +796,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    
+   
 }
 
 .btn-atomic-tangerine:hover {
@@ -1048,6 +1048,13 @@ h4 {
 @media (max-width: 360px) {
     .bloc {
         padding: 5%;
+    }
+
+    .btn-atomic-tangerine {
+        background: #F3976C;
+        display: flex;
+       justify-content: center;
+        
     }
 
 }
